@@ -82,7 +82,7 @@ img {
 #robot{
     top: -2vh;
     position: fixed;
-    z-index: 10;
+    z-index: 20;
 }
 
 #robot2 {
@@ -92,13 +92,13 @@ img {
 
 .navbar {
     overflow: hidden;
-    background-color:white;
-    width: 100vw;
+    background-color:transparent;
+    width: 100vmax;
     top: 0vh;
     left: 0vw;
-    position: fixed;
+    position: absolute;
     text-transform: uppercase;
-    z-index: 15;
+    z-index: 5;
 }
 .dropbtn{
     display: none;
@@ -123,13 +123,13 @@ img {
 #whiteblock {
     height: 5vh;
     width: 100vh;
-    background-color: white;
+    background-color: transparent;
 }
 
 .navbar a:hover, .dropdown:hover {
     background-color:grey;
     color: white;
-    z-index: 15;
+    z-index: 5;
 }
 
 .dropdown-content {
@@ -139,7 +139,7 @@ img {
     width: 20vw;
     margin-top: 6.8vw;
     box-shadow: 5px 7px 10px 0px rgba(0,0,0,0.2);
-    z-index: 15;
+    z-index: 5;
 }
 
 .dropdown-content a {
