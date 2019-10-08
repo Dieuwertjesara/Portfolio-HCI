@@ -128,7 +128,11 @@ img {
 .arduino-img {
     width: 30vmax;
     height: 30vmax;
-    
+}
+
+.arduino-vid {
+    width: 30vmax;
+    height: 30vmax;
 }
 .dropdown {
     float: left;
