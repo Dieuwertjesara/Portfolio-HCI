@@ -125,6 +125,11 @@ img {
     z-index: 5;
 }
 
+.arduino-img {
+    width: 30vmax;
+    height: 30vmax;
+    
+}
 .dropdown {
     float: left;
     overflow: hidden;
