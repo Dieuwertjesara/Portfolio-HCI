@@ -87,7 +87,7 @@ img {
 
 #robot{
     top: -2vh;
-    position: fixed;
+    position: absolute;
     z-index: 20;
 }
 
