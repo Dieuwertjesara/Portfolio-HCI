@@ -174,7 +174,7 @@ img {
 
 #robot{
 
-    top: -2vh;
+    top: 5vh;
 
     position: absolute;
 
@@ -208,7 +208,8 @@ img {
 
     background-color:transparent;
 
-    width: 100vmax;
+    width: 100vw;
+    height: 10vh;
 
     top: 0vh;
 
@@ -233,20 +234,13 @@ img {
 .navbar a {
 
     float: left;
-
     font-size: 2vw;
-
     color: darkgrey;
-
     text-align: center;
-
     width: 20vw;
-
-    padding: 2vw;
-
+    padding: 2vw 0vw;
     text-decoration: none;
-
-    z-index: 5;
+    z-index: 1500003;
 
 }
 
